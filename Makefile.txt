@@ -1,0 +1,9 @@
+all: fileclient
+
+fileserver:clientSJA328.py
+
+	cp client328.py fileclient
+	chmod u+x fileclient
+
+clean:
+	rm -r fileclient 
