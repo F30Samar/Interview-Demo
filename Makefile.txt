@@ -1,0 +1,9 @@
+all: fileserver
+
+fileserver:serverSJA328.py
+
+	cp serverSJA.py fileserver
+	chmod u+x fileserver
+
+clean:
+	rm -r fileserver 
